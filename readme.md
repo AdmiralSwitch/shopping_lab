@@ -27,7 +27,6 @@ For this lab, we'd like you to create a small application that mimics a very min
 ## Views and Controllers
 
 1. Start by building a simple log in system using `has_secure_password` and sessions.
-2. Your login form should have a password confirmation field 
 3. When a user logs in, if they are not an admin, they should see a list of products and have the option to create a new order and see their existing orders
 4. If the user is an admin, they should be able to perform full CRUD on the products.
 5. When a user goes to create a new order, they should see a list of all of the products and be able to add how ever many products they like to each other (use checkboxes for this - review the cookbook app to see how this was done)
